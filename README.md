@@ -68,6 +68,13 @@ python groundingdino_inference.py \
 | age maturity | 611 | young, elderly, adult, mature, baby, teenage, prehistoric, juvenile, youthful, newborn |
 | dryness | 500 | dry, wet, dried, barren, dusty, moist, arid, damp, dust, milk |
 
+## Statistics of the two types of relationship words and representative words within each category (partial display).
+| Attribute    | #num | #representative words |
+|--------------|-----:|-----------------------|
+| Spatial | 15643 | left, below, surrounding, bottom, top, above, right, behind, beneath, around, inside, next to |
+| Action | 11187 | worn, holding, held, wearing, supporting, adorned, covering, parked, connected, wrapped, carried |
+
+
 | Split        | #Images | #Instances | #Categories | Notes |
 |--------------|--------:|-----------:|------------:|-------|
 | Train (seen) | 3,200,000 | 5,800,000 | 1,200 | Includes fine-grained class labels |
