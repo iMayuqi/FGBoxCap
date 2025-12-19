@@ -75,8 +75,3 @@ python groundingdino_inference.py \
 | Action | 11187 | worn, holding, held, wearing, supporting, adorned, covering, parked, connected, wrapped, carried |
 
 
-| Split        | #Images | #Instances | #Categories | Notes |
-|--------------|--------:|-----------:|------------:|-------|
-| Train (seen) | 3,200,000 | 5,800,000 | 1,200 | Includes fine-grained class labels |
-| Train (unseen) | 1,500,000 | 2,700,000 | 900 | Hard negatives included |
-| Test         | 800,000 | 1,450,000 | 1,500 | Zero-shot evaluation supported |
