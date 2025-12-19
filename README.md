@@ -30,6 +30,7 @@ python groundingdino_inference.py \
   --map_out /path/to/output/ \
   --n_hardnegatives 5\
   --genfolder /path/to/annotation_folder/
+```
 
 # Dataset Statistics
 | #Categories |
