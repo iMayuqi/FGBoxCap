@@ -484,7 +484,7 @@ def main():
 
     genfolder = args.genfolder
 
-    dataset_names = [ "attribute_shape.json", "attribute_material.json","relationship_spatial.json", "relationship_action.json", "text.json", "attribute_color.json", "attribute_other.json" ]
+    dataset_names = [ "attribute_shape.json", "attribute_material.json","relationship_spatial.json", "relationship_action.json", "attribute_color.json", "attribute_other.json" ]
     
     set_start_method()  # 确保设置了 spawn 启动方法
     print("=================================")
@@ -509,3 +509,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
